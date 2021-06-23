@@ -1,4 +1,5 @@
-# coding=utf-8
+# encoding: utf-8
+
 from xpinyin import Pinyin
 import sys
 import re
@@ -16,7 +17,7 @@ with open(filename) as file_obj:
     lensize = len(lines)
 titles = ['一', '二', '三', '四', '五', '六', '七', '八', '九']
 
-
+print(lensize)
 def one_chapter(lines, start, end, idx):
     outs = []
     document.add_heading('单元' + titles[idx], level=2)
